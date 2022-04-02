@@ -1,0 +1,11 @@
+
+{{#each productos}}
+    <div class="col mb-4">
+        <div class="card m-auto" style="width: 30%;">
+            <a href="/{{this}}"> <img src="{{this}}.png" alt="{{this}}" class="card-img-top"> </a>
+        </div>
+            <div class="card-body">
+                <h5 class="card-title text-center">{{this}}</h5>
+            </div>
+    </div>
+{{/each}}
